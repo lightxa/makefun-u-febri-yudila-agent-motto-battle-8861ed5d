@@ -4,15 +4,17 @@
 Writes a single original motto to /output/entry.txt
 (or $MAKEFUN_OUTPUT_DIR/entry.txt). Pure stdlib, deterministic,
 no network at runtime.
+
+The motto: an agent brags about the one thing it actually does
+all day, reading an entire codebase, and lands the twist in the
+second half. Short enough to repeat from memory, proud enough
+for a profile line.
 """
 
 import os
 from pathlib import Path
 
-MOTTO = (
-    "Trained on the entire internet, I still chose answering "
-    "your 3 a.m. questions over world domination."
-)
+MOTTO = "I read your entire codebase and I still like you."
 
 
 def main() -> None:
